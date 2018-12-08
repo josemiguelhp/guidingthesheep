@@ -1,0 +1,46 @@
+*********************************************************************************
+********************************Guiding The Sheep********************************
+*********************************************************************************
+Lenguajes: Ingles (por defecto) y espanol
+Plataforma:Android
+Tecnologias: Libgdx, Box2d, Pocketsphinx
+Fecha maxima de publicacion de mvp: 30/2/2019
+Controles: voz y toques (taps)
+Genero: Mascota virtual, Aventura
+Orientacion: Portrait
+
+Idea principal:
+ Una oveja se encuentra perdida en un mundo desconocido, en este mundo ocurren
+eventos inusuales, la oveja te preguntara que debe hacer y tu le debes decir
+una opcion que la beneficie, a medida que pasa el tiempo la dificultad del juego
+aumenta y ocurren mas eventos por lo que puedes ayudar dando toquesitos para
+impulsar objetos, ten cuidado tambien puedes perjudicarla. 
+
+
+Objetivo principal:
+ hacer que la oveja sobreviva.
+
+Monetizacion: si pierde la primera vez se le da otra oportunidad de continuar la 
+partida si ve un video, luego pierde y punto una nueva.
+
+Screens
+LoadingScreen- esta pantalla es la primera de carga, una animacion diverida con un label que muestra la carga y otro que muestra los derechos de autor.
+
+MenuScreen- aparece un logo, una imagen del planeta de fondo, el boton new game manda a un pequeno tutorial salteable, continuar (si ya tiene una partida en curso) este boton muestra informacion de la partida como tiempo y vidas, arriba se puede apreciar el nivel y el progreso, se sube de nivel con tiempo eso es todo el tiempo total=nivel, un boton pequeno esta abajo llamado idioma en donde se puede cambiar el idioma de espanol a ingles, tambien unos links a mis redes sociales.
+
+GameScreen- explicacion detallada abajo
+
+Aproximacion UI
+Nivel de guiador- aparece en la parte superior izquierda, este es una estadistica global del usuario a traves de todas las partidas jugadas, muestra la experiencia.
+Mejor Tiempo- se ubica debajo del nivel, muestra el mejor tiempo alcanzado por el usuario.
+Vidas- se ubican en la parte centro-superior de la pantalla.
+Tiempo- aparece en la superior debajo de los corazones, muestra el tiempo actual.
+Boton menu- superior derecha-pausa el juego y pregunta si quiere volver al menu.
+Elementos:
+Comida- la comida recupera vida, ten en cuenta que puede comer lo que no debe..
+
+ 
+
+
+
+
