@@ -1,0 +1,39 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	chary: {
+		file: chary.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	blanco: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+	negro: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	purpura: {
+		r: 0.41666663
+		g: 0.31388885
+		b: 0.39641303
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: chary
+		fontColor: negro
+		background: loadingSquare
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+}

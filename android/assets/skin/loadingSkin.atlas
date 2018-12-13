@@ -1,0 +1,35 @@
+
+loadingSkin.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chary
+  rotate: false
+  xy: 1, 1
+  size: 128, 512
+  orig: 128, 512
+  offset: 0, 0
+  index: -1
+loadingSquare
+  rotate: false
+  xy: 493, 692
+  size: 63, 63
+  split: 14, 13, 18, 19
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 1, 615
+  size: 490, 140
+  orig: 490, 140
+  offset: 0, 0
+  index: -1
+sheep_shadow
+  rotate: false
+  xy: 1, 515
+  size: 140, 98
+  orig: 140, 98
+  offset: 0, 0
+  index: -1

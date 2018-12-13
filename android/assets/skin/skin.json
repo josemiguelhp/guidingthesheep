@@ -1,0 +1,93 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	chary: {
+		file: chary.fnt
+	}
+	chary_24: {
+		file: chary_24.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	blanco: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+	grisoscurito: {
+		r: 0.25666666
+		g: 0.24468888
+		b: 0.24468888
+		a: 1
+	}
+	purpurita: {
+		r: 0.7979389
+		g: 0.54780006
+		b: 0.8300001
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	camara_disabled: {
+		name: camara
+		color: grisoscurito
+	}
+	camara_down: {
+		name: camara
+		color: purpurita
+	}
+	mic_down: {
+		name: mic
+		color: grisoscurito
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: camara_disabled
+		checkboxOff: camara
+		font: chary_24
+		fontColor: blanco
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		up: mic
+		down: mic_down
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		font: chary
+		fontColor: blanco
+		up: windowsBackground
+		down: graySquare
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: chary
+		fontColor: blanco
+	}
+	distance: {
+		font: chary_24
+		fontColor: blanco
+	}
+	chipi: {
+		font: chary_24
+		fontColor: grisoscurito
+		background: bubblespeech
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: windowsBackground
+		titleFont: chary_24
+		stageBackground: windowsBackground
+	}
+}
+}
