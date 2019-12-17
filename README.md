@@ -1,4 +1,4 @@
-# guidingthesheep
+# Guiding the sheep
  Guiding The Sheep is a libgdx-based game that use box2d to physics and implements 
 pocketsphinx to voice recognition in the Android module, its incomplete so i decided
 to uploaded to github and make it public, if someone needs to see a Libgdx-Pocketspnix
